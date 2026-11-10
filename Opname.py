@@ -13,7 +13,7 @@ print("- Kelas 1 (Rp 800.000 / hari)")
 print("- VIP     (Rp 1.500.000 / hari)")
 pilihan_kamar = input("Masukkan kelas kamar pasien (3 / 2 / 1 / vip): ").lower()
 
-print(f"\n=== KONDISI & TAGIHAN {nama_pasien.upper()} ---")
+print(f"\n=== KONDISI & TAGIHAN {nama_pasien.upper()} ===")
 if (tingkat_sesak == "sesak berat" and suhu_badan >= 38.5) or (tingkat_sesak == "sesak berat"):
     print("-> Kondisi pasien drop! Segera pindahkan ke ruang ICU.")
     print("-> [INFO] Sistem tagihan ditangguhkan sampai kondisi stabil.")
